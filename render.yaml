@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: youtube-clipper
+    runtime: docker
+    plan: free
+    healthCheckPath: /
